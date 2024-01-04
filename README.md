@@ -8,6 +8,7 @@
 ## Intro  
 
 * [Gitの知識入門](intro/overview.md)  
+* [高度なヒント](intro/advanced-tips.md)  
 * [運用方法 Git(GitHub) Flow](intro/git-github_flow.md)  
 
 ## Practice  
