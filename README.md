@@ -5,4 +5,4 @@
 
 ## Intro  
 * [Gitの知識入門](intro/overview.md)  
-* [Git(GitHub) Flowについて](intro/git-github_flow.md)
+* [運用方法 Git(GitHub) Flow](intro/git-github_flow.md)
