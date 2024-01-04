@@ -82,6 +82,27 @@ Git（ギット）は、プログラムのソースコードなどの変更履�
 `<>`で挟まれた箇所は適宜変更してください。 　
 :::
 
+### Gitを使う時の注意点  
+
+* ブランチの使い分けを理解する  
+  本番環境のブランチ、テスト環境ブランチ、開発環境ブランチetc..  
+  開発時の`push`は`develop branch`へ実行する等、各プロジェクトでのGit運用の確認は必須  
+* `local repository`は最新のものにする  
+* `commit message`はわかりやすい要約にする  
+  [Gitのコミットメッセージの書き方](https://qiita.com/itosho/items/9565c6ad2ffc24c09364)  
+* `force push`をしない  
+  間違った内容の変更をリモートに`push`してしまい、取り消すために`force push`すること  
+  **Gitは変更履歴を管理している**  
+  誤った内容の変更もその履歴は残る  
+  誤った変更の履歴を削除する前にブランチを切った人がいた場合、その前の履歴が残っていることになるため、履歴の統一ができなくなる。  
+  * ~~`force push`~~  
+  * `revert`  
+    `revert`は変更の取り消しをするコマンド  
+    * 履歴まで削除をしない  
+    * **変更を取り消した履歴として残る**  
+  変更の取り消しをする際は`revert`を用いて、履歴の統一を行う。  
+
 参照URL  
 [11. Gitで管理](https://qiita.com/nuco_bk/items/27f5ad03d0c4b41241fc#11-git%E3%81%A7%E7%AE%A1%E7%90%86)  
 [Git branch](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-branches.html)  
+[Gitのコミットメッセージの書き方（2023年ver.）](https://zenn.dev/itosho/articles/git-commit-message-2023)  
