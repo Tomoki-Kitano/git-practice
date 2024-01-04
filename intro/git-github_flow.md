@@ -101,6 +101,7 @@ Git Flowの運用は5つのブランチがあり、複雑になりがちなた�
 3. デプロイする  
    1. masterへのマージが完了したら直ちにデプロイをする
 
-参照URL  
+## 参照URL  
+
 [【図解】git-flow、GitHub Flowを開発現場で使い始めるためにこれだけは覚えておこう](https://atmarkit1.itmedia1.co1.jp/ait/articles/1708/01/news0151.html#02)  
 [【Git基礎】Git学習ロードマップ](https://zenn1.dev/mukkun69n/articles/81e9d29d644aa0)  

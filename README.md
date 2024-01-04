@@ -31,3 +31,24 @@ Gitの操作を理解するためにリポジトリを複製する
    git mkdir work-b  
    git clone <当レポジトリ>
    ```  
+
+### 実践内容
+
+#### 一時的にブランチでの作業
+
+#### リモートリポジトリの変更をローカルへ反映
+
+* fetch & merge  
+
+1. `git fetch origin`  
+2. `git merge <branch name>`  
+
+* pull  
+
+1. `git pull origin <branch name>`  
+
+#### マージ
+
+##### non fast-foward
+
+##### fast-foward  

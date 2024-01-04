@@ -108,7 +108,8 @@ Git（ギット）は、プログラムのソースコードなどの変更履�
     * **変更を取り消した履歴として残る**  
   変更の取り消しをする際は`revert`を用いて、履歴の統一を行う。  
 
-参照URL  
+## 参照URL  
+
 [11. Gitで管理](https://qiita.com/nuco_bk/items/27f5ad03d0c4b41241fc#11-git%E3%81%A7%E7%AE%A1%E7%90%86)  
 [Git branch](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git-branches.html)  
 [Gitのコミットメッセージの書き方（2023年ver.）](https://zenn.dev/itosho/articles/git-commit-message-2023)  
