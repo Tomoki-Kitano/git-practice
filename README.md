@@ -15,16 +15,16 @@ Gitの操作を理解するためにリポジトリを複製する
 ### 実践環境の構築  
 
 1. 任意のディレクトリへ移動  
-   e.g., `cd project`  
+   `cd project`  
 2. 任意のディレクトリでフォルダーを新規作成  
-   e.g., `mkdir work-a`  
+   `mkdir work-a`  
 3. 新規作成したフォルダーへ移動  
-   e.g., `cd work-a`  
+   `cd work-a`  
 4. 当レポジトリをcloneし、レポジトリを複製する  
-   e.g., `git clone <当レポジトリ>`  
+   `git clone <当レポジトリ>`  
 5. はじめのディレクトリへ戻り、2~4の操作を再度行う  
 
-   ```  
+   ```bash  
    git cd ../  
    git mkdir work-b  
    git clone <当レポジトリ>

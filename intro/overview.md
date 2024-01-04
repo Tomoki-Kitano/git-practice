@@ -34,8 +34,13 @@ Git（ギット）は、プログラムのソースコードなどの変更履�
 
 * branch ブランチ  
   履歴の流れを分岐して記録していくもの。  
-  分岐したブランチは他のブランチの影響を受けないため、同じ`repository`で複数の変更を同時に進めることができる。  
-
+  分岐したブランチは他のブランチの影響を受けないため、同じ`repository`で複数の変更を同時に進めることができる。
+  * `git branch -a`
+    リモートのブランチも表示する  
+  * `git branch -m <old branch name> <new branch name>`  
+    ブランチ名の変更  
+  * `git branch -d <branch name>`  
+    ブランチの削除  
 * fetch フェッチ  
   `remote repository`の最新内容を`local repository`に取り入れる操作。  
   **あくまで取り入れるだけ**  
