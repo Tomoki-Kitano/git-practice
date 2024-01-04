@@ -3,5 +3,6 @@
 ここはgitについてを学ぶ・実践するレポジトリです。
 学んだ内容の記述や実践を行います。
 
-## Intro
-* [Git Flow / GitHub Flowについて](intro/git-github_flow.md)
+## Intro  
+* [Gitの前提知識](intro/overview.md)  
+* [Git(GitHub) Flowについて](intro/git-github_flow.md)
