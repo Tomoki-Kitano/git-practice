@@ -36,7 +36,7 @@
   分岐したブランチは他のブランチの影響を受けないため、同じ`repository`で複数の変更を同時に進めることができる。
   * `git branch -a`
     リモートのブランチも表示する  
-  * `git branch -m <old branch name> <new branch name>`[^1]  
+  * `git branch -m <old branch name> <new branch name>`[^2]  
     ブランチ名の変更  
   * `git branch -d <branch name>`  
     ブランチの削除  
@@ -46,20 +46,20 @@
   `local repository`の`branch`に変更を反映させるものではない。  
   * `git fetch`  
     `remote repository`のすべての変更を取得  
-  * `git fetch <remote repository name>`[^1]  
+  * `git fetch <remote repository name>`[^2]  
     指定した`remote repository`のすべての変更を取得。  
-  * `git fetch <remote repository name> <branch name>`[^1]  
+  * `git fetch <remote repository name> <branch name>`[^2]  
     指定した`remote repository`の`branch`の変更を取得する  
 
 * merge マージ  
   異なる`branch`で行われた変更を統合し、１つの`branch`にまとめる操作。  
   `fetch`で取り込まれた`remote repository`の変更を`local repository`の特定の`branch`に反映させる。  
-  * `git merge <branch name>`[^1]  
+  * `git merge <branch name>`[^2]  
     `local repository`の実行した`branch`へ変更を反映させる。  
 
 * pull プル  
   `fetch`と`merge`を同時に行う操作。  
-  * `git pull <remote repository name> <branch name>`[^1]  
+  * `git pull <remote repository name> <branch name>`[^2]  
   * `pull`と`fetch`の使い分け  
     `remote repository`の中身を確認したい場合→`fetch`  
 
@@ -71,7 +71,7 @@
 * commit コミット  
   ステージングされた変更内容を`local repository`に反映させる操作。  
   ステージングされたファイルの変更内容は、`commit`時はまだ`local repository`に反映されていない。  
-  * `git commit -m '<commit message>'`[^1]  
+  * `git commit -m '<commit message>'`[^2]  
     コミットメッセージと共にステージングされている箇所をローカルリポ時とるへ反映。  
     **基本的にコミットメッセージは残すこと**  
 
@@ -81,8 +81,6 @@
 * conflict コンフリクト  
   異なるブランチやコミットで同じファイルの同じ箇所が編集され、Gitがそれを自動的に解決できない状態。  
   **表示されたときは、どちらかを選択しなければならない**  
-
-[^1]: `<>`で挟まれた箇所は適宜変更してください。 　
 
 ## Gitを使う時の注意点  
 
@@ -112,4 +110,5 @@
 
 ## 脚注  
 
-[/^1]: # [Git wikipedia](https://ja.wikipedia.org/wiki/Git)  
+[^1]: Git wikipedia <https://ja.wikipedia.org/wiki/Git>  
+[^2]: `<>`で挟まれた箇所は適宜変更してください  
